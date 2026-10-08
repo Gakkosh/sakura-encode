@@ -52,7 +52,7 @@ Uygulama dört hedef üzerine kuruldu:
 ### Altyazı ve yazı tipleri
 - ASS/SSA altyazılar bütün stilleriyle gömülür.
 - Altyazıdaki her yazı tipi aranır (videoya gömülü, eklenen klasörler, bilgisayarda kurulu). Eksik yazı tipleri ve yazı tipinde bulunmayan Türkçe harfler (ş, ğ, ı, İ) kodlamadan **önce** gösterilir.
-- Önizleme: altyazının gömülmüş hâli, gerçek kodlamadaki motorla tek kare olarak çizilir; an salisesine kadar seçilir, kare kare ilerlenir.
+- Canlı önizleme: video kodlanmadan, çıktının son hâliyle oynatılır. Intro baştadır, kesilen aralıklar atlanır, altyazı ve filigran yerindedir; an salisesine kadar seçilir, kare kare ilerlenir.
 - Videonun kendi altyazıları sessizce kaybolmaz: altyazı dosyası verilmişse çıkarılır, verilmemişse seçmeli altyazı olarak korunur.
 
 ### Intro
@@ -109,6 +109,6 @@ Programın internete çıktığı tek yer güncelleme denetimidir: açılışta 
 
 Sakura Encode ücretsizdir; kişisel ya da ticari işlerde kullanılabilir. Kurulum dosyası değiştirilmeden ve ücret alınmadan paylaşılabilir. Program satılamaz, değiştirilemez, kaynak koduna dönüştürülemez; "Sakura Encode" adı ve logosu izinsiz kullanılamaz. Program "olduğu gibi" sunulur, garanti verilmez. Koşulların tam metni kurulu programın klasöründeki `LICENSE.txt` dosyasındadır.
 
-Sakura Encode, videoları [FFmpeg](https://ffmpeg.org) ile işler. FFmpeg ayrı bir program olarak kurulumla birlikte dağıtılır ve kendi lisansı (GPL) altındadır; lisans metni kurulu programın `resources/bin/FFMPEG-LICENSE.txt` dosyasındadır. Arayüz Electron ve React (MIT lisansı) üzerine kuruludur.
+Sakura Encode, videoları [FFmpeg](https://ffmpeg.org) ile işler. FFmpeg ayrı bir program olarak kurulumla birlikte dağıtılır ve kendi lisansı (GPL) altındadır; lisans metni kurulu programın `resources/bin/FFMPEG-LICENSE.txt` dosyasındadır. Canlı önizleme videoyu [mpv](https://mpv.io) ile oynatır; mpv de ayrı bir program olarak kurulumla gelir ve kendi lisansı (GPL) altındadır, lisans metni `MPV-LICENSE.txt` adıyla onun klasöründedir. Arayüz Electron ve React (MIT lisansı) üzerine kuruludur.
 
 © 2026 Gökhan Akkaya
