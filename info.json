@@ -1,10 +1,17 @@
 {
-  "version": "0.1.6",
-  "date": "2026-10-13",
-  "url": "https://github.com/Gakkosh/sakura-encode/releases/download/v0.1.6/SakuraEncode_Setup.exe",
+  "version": "0.1.7",
+  "date": "2026-11-10",
+  "url": "https://github.com/Gakkosh/sakura-encode/releases/download/v0.1.7/SakuraEncode_Setup.exe",
   "sha256": "43eab442f4c9f57c58eae2cd477318ccc825367f6b6c0d40beb800b62551dfec",
-  "notes": "https://github.com/Gakkosh/sakura-encode/releases/tag/v0.1.6",
+  "notes": "https://github.com/Gakkosh/sakura-encode/releases/tag/v0.1.7",
   "history": [
+    {
+      "tag": "v0.1.7",
+      "name": "v0.1.7",
+      "date": "2026-11-10T18:11:55Z",
+      "html": "<h3>✨ Yenilikler</h3>\n<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>🔔 <strong>Her bölüm bitince bildirim</strong></td>\n<td>Toplu kodlamada her bölüm bittiğinde haber almak istersen <strong>Ayarlar → Bildirim ve pencere</strong> bölümünden \"Her bölüm bitince bildirim göster\"i aç. Bildirimde bitirilen bölümün adı ve kuyrukta kaç dosya kaldığı yazar; tıklarsan bölümün bulunduğu klasör açılır. Bir bölüm hata verirse de haber verir.</td>\n</tr>\n</tbody>\n</table>\n<h3>ℹ️ Bilmen gerekenler</h3>\n<ul>\n<li>Bu ayar ilk kurulumda kapalıdır: kapalıyken eskisi gibi yalnız bütün kuyruk bitince tek bildirim gelir.</li>\n<li>Açıkken son bölümde ayrıca bölüm bildirimi çıkmaz; onun yerine \"Kuyruk bitti\" bildirimi gelir, ikisi üst üste binmez.</li>\n</ul>\n<h3>📥 Kurulum</h3>\n<p>Program güncellemeyi kendisi bulur: <strong>Güncelleme</strong> sayfasından indirip \"Yeniden başlat\" demen yeterli.</p>\n<h3>🛡️ Güvenlik</h3>\n<ul>\n<li><strong>VirusTotal:</strong> <a href=\"https://www.virustotal.com/gui/file/43eab442f4c9f57c58eae2cd477318ccc825367f6b6c0d40beb800b62551dfec\" rel=\"nofollow\">bu sürümün kurulum dosyası için tarama raporu</a></li>\n<li><strong>SHA-256:</strong> <code>43eab442f4c9f57c58eae2cd477318ccc825367f6b6c0d40beb800b62551dfec</code></li>\n</ul>",
+      "url": "https://github.com/Gakkosh/sakura-encode/releases/tag/v0.1.7"
+    },
     {
       "tag": "v0.1.6",
       "name": "v0.1.6",
